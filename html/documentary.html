@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>U-Share</title>
+	
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="css/animations.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+	<script type="text/javasrcipt">
+function updatepicture(pic){
+document.getElementbyId("image").setAttribute("src",pic);
+} 
+</script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	
+	<section class="hero" id="intro">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+					<div class="animatedParent">
+						<h1 class="animated fadeInDown">U-Share</h1>
+						<p class="animated fadeInUp">Welcome To Documentary</p>
+					</div>
+			   </div>
+              </div>
+             
+              </div>
+            </div>
+    </section>
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+                              <div class="container">
+                                    <div class="row">
+                                          <div class="col-md-2">
+                                                   <div class="site-logo">
+                                                            <a href="index.html" class="brand">U-Share</a>
+                                                    </div>
+                                          </div>
+                                          
+
+                                          <div class="col-md-10">
+                         
+                                                     
+                                          <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+                                          </div>
+                                                     
+                                                      <div class="collapse navbar-collapse" id="menu">
+                                                            <ul class="nav navbar-nav navbar-right">
+                                                                  <li class="active"><a href="final.html">Home</a></li>
+                                                                  <li><a href="final.html">About Us</a></li>
+																   <li><a href="final.html">Services</a></li>
+                                                                  <li><a href="final.html">Works</a></li>				                                                                  
+                                                                  
+                                                                  <li><a href="final.html">Contact</a></li>
+                                                            </ul>
+                                                      </div>
+                                                                                   
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- /.container -->
+                        </nav>
+    </div> 
+<br><br>
+<div class="container" >
+<form id="form" method="post" action="upload2.php" enctype="multipart/form-data" target="iframe">
+<pre>                                                                    <input type="file" id="file" name="file">
+  <button  class="btn btn-success" type="submit" name="submit" id="submit" value="Upload file" >success</button>
+</pre></form>
+</div>
+<p id="message"></p>
+<img style="min-height:120;min-width:200;max-height:120px;" id="image"/><br><br>
+<iframe  style="display:none;" name="iframe" height="600" width="660"></iframe>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+						<li><a href="#">Home</a></li>
+					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<p>U-Share copyright@ </p>
+                   				</div>
+			</div>	
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>	 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
+	
+    <script src="js/custom.js"></script>
+	<script src="js/css3-animate-it.js"></script>
+</body>
+</html>

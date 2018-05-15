@@ -1,0 +1,7 @@
+<?php
+$host = "localhost";
+$serverName ="root";
+$serverPassword = "";
+$dbname ="database";
+$connection = mysqli_connect($host, $serverName, $serverPassword, $dbname);
+?>
